@@ -21,7 +21,9 @@ jobs:
       - name: Run tests
         run: |
           du -a
+          pytest test_file.py
           pytest
+
 
       - name: Run flake8
         uses: py-actions/flake8@v2
