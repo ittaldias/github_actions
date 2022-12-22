@@ -22,6 +22,7 @@ jobs:
         run: |
           du -a
           echo ${{ github.workspace }}
+          ls ${{ github.workspace }}
           pytest /home/runner/work/github_actions/github_actions/test_file.py
           pytest
 
