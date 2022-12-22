@@ -20,7 +20,7 @@ jobs:
 
       - name: Run tests
         run: |
-          ls -l
+          ls -R
           pytest
 
       - name: Run flake8
